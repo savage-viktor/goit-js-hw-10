@@ -1,5 +1,19 @@
 * {
   box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+    list-style: none;
 }
 
 body {
@@ -18,3 +32,37 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+}
+
+.coutry-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.counry-flag {
+  margin-right: 10px;
+}
+
+.header-box {
+  display: flex;
+    margin-bottom: 15px;
+}
+
+.header-box h1 {
+  margin-left: 10px;
+}
+
+.country-info li {
+  margin-bottom: 15px;
+}
+
+.country-info span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
