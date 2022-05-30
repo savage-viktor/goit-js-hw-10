@@ -18,8 +18,8 @@ function onInput() {
     let name = inputRef.value.trim()
 
     if (name === "") {
-        counryInfo.innerHTML = ''
-        counryList.innerHTML = ''
+        counryInfo.innerHTML = '';
+        counryList.innerHTML = '';
         return
     }
 
