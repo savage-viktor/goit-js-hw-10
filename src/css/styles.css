@@ -24,13 +24,23 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+display: flex;
+justify-content: center;
+}
+
+.inputShell {
+
+  margin-top: 70px;
+  width: 600px;
+
 }
 
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  /* max-width: 320px; */
   margin-bottom: 16px;
+  width: 100%;
 }
 
 .country-list {
